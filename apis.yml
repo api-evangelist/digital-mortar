@@ -1,7 +1,25 @@
 aid: digital-mortar
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/digital-mortar.png
 name: Digital Mortar
-description: Digital Mortar is a company surfaced as a portfolio company of 500-global and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: Digital Mortar is an in-store and physical-location people-journey analytics
+  company. Its DM1 platform measures shopper and visitor journeys - path, queue, occupancy,
+  throughput, dwell and space utilization - using LiDAR and stereoscopic-camera sensors,
+  delivering heat mapping, funnel analysis, real-time queue and occupancy tracking, display
+  and merchandising measurement, and door/people counting as a SaaS analytics tool. It
+  serves retail, airports, malls, stadiums and events. Digital Mortar is now part of PMY
+  Group; its digitalmortar.com domain is dormant (mail-only, no live website) and it
+  exposes no public developer or API program.
 url: https://raw.githubusercontent.com/api-evangelist/digital-mortar/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +27,22 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: dormant
+x-acquired-by: PMY Group
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Retail Analytics
+- Location Analytics
+- People Counting
+- Queue Management
+- Occupancy Analytics
+- Computer Vision
+- Shopper Journey
+- Physical Retail
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,12 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/digital-mortar-domain-security.yml
 - type: Website
   url: https://digitalmortar.com
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
