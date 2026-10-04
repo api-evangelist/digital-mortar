@@ -50,7 +50,7 @@ tags:
 - People Counting
 - Queue Management
 - Occupancy Analytics
-- Computer-Vision
+- Computer Vision
 - Shopper Journey
 - Physical Retail
 - Software-as-a-Service
@@ -65,6 +65,7 @@ tags_raw:
 - Shopper Journey
 - Physical Retail
 - SaaS
+- Computer-Vision
 apis: []
 maintainers:
 - FN: Kin Lane
